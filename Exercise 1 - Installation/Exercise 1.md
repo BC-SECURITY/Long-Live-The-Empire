@@ -3,7 +3,7 @@ The Empire Server is pre-installed on the Kali Linux machine in the lab. However
 The Kali machine is located at `10.10.2.70`
 
 # Empire Installation
-We recommend using the GitHub installation on Kali LInux for running Empire. Below are the instruction for pulling and installing from [GitHub](https://github.com/BC-SECURITY/Empire).
+We recommend using the GitHub installation on Kali Linux for running Empire. Below are the instruction for pulling and installing from [GitHub](https://github.com/BC-SECURITY/Empire).
 ```bash
 git clone --recursive https://github.com/BC-SECURITY/Empire.git
 cd Empire
@@ -16,7 +16,7 @@ If Empire successfully installs, you will see a message similar to the one below
 <img width="315" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/2faad832-29a8-4e4e-9044-3d992e440fdf">
 
 # Starting Empire
-Empire comes pre-built with a server and client. The server manages all aspects of Empire, while the client is a command line tool for connecting to Empire. The client is considered the old method for using Empire and Starkiller is the recommend and preferred method of using Empire.
+Empire comes pre-built with a server and client. The server manages all aspects of Empire, while the client is a command line tool for connecting to Empire. The client is considered the old method for using Empire and Starkiller is the recommended and preferred method of using Empire.
 
 ## Help Menu
 ```
@@ -33,11 +33,11 @@ options:
   -h, --help            show this help message and exit
 ```
 ## Start Server
-The teamserver is the essential part for Empire and can be started by running the script `./ps-empire server`. If the serve has started up successfully you will see various messages mentioning the loading of templates, listeners, bypasses, malleable profiles, modules, and plugins. Then finally you will see a notification that Starkiller and Uvicorn are running.
+The teamserver is an essential part of Empire and can be started by running the script `./ps-empire server`. If the server has started up successfully, you will see various messages mentioning the loading of templates, listeners, bypasses, malleable profiles, modules, and plugins. Then finally, you will see a notification that Starkiller and Uvicorn are running.
 
 <img width="445" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/e061b0a3-4667-4ef8-8c9b-f19b9bf337a7">
 
-**Note:** You may see other messages as the server starts up for the first time. Don't worry as they are the server setting up the Roslyn compiler and Starkiller.
+**Note:** You may see other messages as the server starts up for the first time. Don't worry, as they are the server setting up the Roslyn compiler and Starkiller.
 
 ### Help Menu
 ```
@@ -93,9 +93,9 @@ options:
 ```
 
 ## Open Starkiller
-A separate application is no longer required for running Starkiller since Empire now hosts service. It is simple to connect to locally or remotely.
+A separate application is no longer required for running Starkiller since Empire now hosts the service. It is simple to connect to locally or remotely.
 
-1. Open a web browser and navigate to `http://localhost:1337/index.html`. You may connect using the listed address on the server, however, non-local connections may have some functionality disabbled.
+1. Open a web browser and navigate to `http://localhost:1337/index.html`. You may connect using the listed address on the server. However, non-local connections may have some functionality disabled.
 
     <img width="322" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/5a939a2e-764b-4c1f-a718-d29cde00e41d">
 
