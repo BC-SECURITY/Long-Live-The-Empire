@@ -36,3 +36,7 @@ For this exercise, follow along on the Kali box in Immersive Labs.
 5. Paste the payload into PowerShell.exe on Workstation 1 and run it 
 
    <img width="913" alt="252177318-d2c41ae5-bb57-4037-86e7-d423efb1191a" src="https://github.com/BC-SECURITY/Empire/assets/20302208/affa456f-a408-4e93-96f2-061d72cfe33b">
+
+6. A sucessful agent callback will give a notification on the bottome left of the screen and display the new agent on the Agents tab.
+
+    <img width="782" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/9734c080-5ec3-4922-8fac-ebf53420cc4d">
