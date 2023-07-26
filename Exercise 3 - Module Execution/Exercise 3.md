@@ -2,7 +2,7 @@
 For this exercise, we will use the Kali box and Workstation 1. We will be diving into practical aspects of module execution on Agents. We'll start by operating an interactive shell, proceeding to list and inject into processes, then moving on to executing Binary Object Files (BOF). 
 
 # Interact with Agent
-In this section, you will learn how to effectively interact with an agent within Starkiller. This involves various steps from operating an interactive shell to executing Binary Object Files (BOF). It will give you hands-on experience and demonstrate the depth of functionalities an agent offers.
+In this section, you will learn how to effectively interact with an agent within Starkiller. This involves various steps, from operating an interactive shell to executing Binary Object Files (BOF). It will give you hands-on experience and demonstrate the depth of functionalities an agent offers.
 
 1. On the Agents tab of Starkiller, click on the name of the agent to interact with it.
 
@@ -19,7 +19,7 @@ In this section, you will learn how to effectively interact with an agent within
 ## Interactive Shell
 Next, we will introduce you to the Interactive Shell, a powerful feature that allows for command-line interaction with an agent. This simulated environment will provide you with a direct and intuitive way to issue commands and control the agent's activities.
 
-1. Enter the interactive shell by clicking the arrow on the top right corner.
+1. Enter the interactive shell by clicking the arrow in the top right corner.
 
 <p align="center">
     <img width="781" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/f7b0e22a-6e09-4b2f-9557-fd7c86914382">
@@ -37,7 +37,7 @@ Next, we will introduce you to the Interactive Shell, a powerful feature that al
     <img width="155" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/d8dd0187-dab3-4484-9f29-a8ddeb26c87a">
 </p>
 
-4. Now enter, `cd ..` which will change your current working directory. However, When entering a command, keep in mind there may be a delay due to the beacon interval that is set.
+4. Now enter `cd ..` which will change your current working directory. However, When entering a command, keep in mind there may be a delay due to the beacon interval that is set.
 
 <p align="center">
     <img width="157" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/3c75569c-55a2-4577-8976-f05c445d8b17">
