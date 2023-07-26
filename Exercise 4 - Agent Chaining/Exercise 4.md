@@ -2,9 +2,9 @@
 In this exercise, we will explore the process of agent chaining using Empire. The key steps we will cover include elevating privileges, creating a port forward pivot, and generating a C# payload. This hands-on walkthrough will enhance your understanding of how to effectively use Empire for post-exploitation activities.
 
 ## Elevating Privileges
-For our Port Forward Pivot to work succesffully, we will need to elevate our agent first. For this part, we will use a simple UAC bypass to achieve this.
+For our Port Forward Pivot to work successfully, we will need to elevate our agent first. For this part, we will use a simple UAC bypass to achieve this.
 
-1. Return to our agent from Exercise 2 and 3 by selecting it in the Agents tab.
+1. Return to our agent from Exercises 2 and 3 by selecting it in the Agents tab.
 
 2. Type in `powershell_privesc_bypassuac_fodhelper` or simply `bypassuac` and select the fodhelper module.
 
@@ -12,7 +12,7 @@ For our Port Forward Pivot to work succesffully, we will need to elevate our age
   <img width="461" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/366c8b79-f83f-42f8-8765-d0499604abae">
 </p>
 
-3. Once the module is selected you will see the following options available.
+3. Once the module is selected, you will see the following options available.
 
 <p align="center">
   <img width="458" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/c3742adf-d42b-4cb6-8212-641a97fdb265">
@@ -32,7 +32,7 @@ For our Port Forward Pivot to work succesffully, we will need to elevate our age
   <img src="https://github.com/BC-SECURITY/Empire/assets/20302208/2801693c-af72-4b24-b583-f7a8ff24fe49">
 </p>
 
-7. Take note of the agent's name as we will need it for the next section.
+7. Take note of the agent's name, as we will need it for the next section.
 
 ## Create a Port Forward Pivot
 In this section, we will guide you through the process of establishing a network pivot using an Empire listener. This step will allow us to redirect network traffic from one agent to another, effectively extending our reach into the target network.
@@ -67,7 +67,7 @@ In this section, we will guide you through the process of establishing a network
   <img width="353" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/af218300-03a7-4989-823a-c170ffba1ad8">
 </p>
 
-6. With the Agent option set, you can now hit `Submit` on the top right corner.
+6. With the Agent option set, you can now hit `Submit` in the top right corner.
 
 <p align="center">
   <img src="https://github.com/BC-SECURITY/Empire/assets/20302208/5bd90aaf-9f32-4ef4-9dcf-b88f64c901cd">
@@ -80,9 +80,9 @@ In this section, we will guide you through the process of establishing a network
 </p>
 
 ## Creating a C# Payload
-Now we will cover the process of generating and compiling a C# stager. Empire uses a modified version of the Roslyn compiler from Covenant and has integrated into the project. This tool allows us to transform our C# code into an executable file, specifically designed to invoke PowerShell. The ensuing steps will walk you through the process of specifying the necessary parameters, creating your payload, and ultimately deploying it.
+Now we will cover the process of generating and compiling a C# stager. Empire uses a modified version of the Roslyn compiler from Covenant and has integrated it into the project. This tool allows us to transform our C# code into an executable file specifically designed to invoke PowerShell. The ensuing steps will walk you through the process of specifying the necessary parameters, creating your payload, and ultimately deploying it.
 
-1. Now that the listner is crated, we will navigate back to the Stagers tab.
+1. Now that the listener is created, we will navigate back to the Stagers tab.
 
 <p align="center">
   <img src="https://github.com/BC-SECURITY/Empire/assets/20302208/ba9ce4c7-afd0-4d3f-956e-d6e9309f7cad">
@@ -101,7 +101,7 @@ Now we will cover the process of generating and compiling a C# stager. Empire us
   <img width="467" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/5001c5bb-0723-4664-bb8d-f2b579581aa8">
 </p>
 
-4. For this stager, there will be 2 different options that we will be setting. First select the Listener as `port_forward_pivot`. 
+4. For this stager, there will be 2 different options that we will be setting. First, select the Listener as `port_forward_pivot`. 
 
 <p align="center">
   <img width="235" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/8b68a94b-5116-446c-bbbc-60970cc42669">
