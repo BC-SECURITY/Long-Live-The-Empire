@@ -1,6 +1,7 @@
 # Exercise 1: Empire Installation and Startup
 The Empire Server is pre-installed on the Kali Linux machine in the lab. However, the installation instructions are found on the [Empire Wiki](https://bc-security.gitbook.io/empire-wiki/quickstart/installation).
-The Kali machine is located at `10.10.2.70`
+
+The Kali machine is located at: `10.10.2.70`
 
 # Empire Installation
 We recommend using the GitHub installation on Kali Linux for running Empire. Below are the instruction for pulling and installing from [GitHub](https://github.com/BC-SECURITY/Empire).
@@ -13,7 +14,9 @@ sudo ./setup/install.sh -y
 
 If Empire successfully installs, you will see a message similar to the one below.
 
-<img width="315" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/2faad832-29a8-4e4e-9044-3d992e440fdf">
+<p align="center">
+  <img width="315" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/2faad832-29a8-4e4e-9044-3d992e440fdf">
+</p>
 
 # Starting Empire
 Empire comes pre-built with a server and client. The server manages all aspects of Empire, while the client is a command line tool for connecting to Empire. The client is considered the old method for using Empire and Starkiller is the recommended and preferred method of using Empire.
@@ -35,7 +38,9 @@ options:
 ## Start Server
 The teamserver is an essential part of Empire and can be started by running the script `./ps-empire server`. If the server has started up successfully, you will see various messages mentioning the loading of templates, listeners, bypasses, malleable profiles, modules, and plugins. Then finally, you will see a notification that Starkiller and Uvicorn are running.
 
-<img width="445" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/e061b0a3-4667-4ef8-8c9b-f19b9bf337a7">
+<p align="center">
+  <img width="445" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/e061b0a3-4667-4ef8-8c9b-f19b9bf337a7">
+</p>
 
 **Note:** You may see other messages as the server starts up for the first time. Don't worry, as they are the server setting up the Roslyn compiler and Starkiller.
 
@@ -97,16 +102,20 @@ A separate application is no longer required for running Starkiller since Empire
 
 1. Open a web browser and navigate to `http://localhost:1337/index.html`. You may connect using the listed address on the server. However, non-local connections may have some functionality disabled.
 
+<p align="center">
     <img width="322" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/5a939a2e-764b-4c1f-a718-d29cde00e41d">
+</p>
 
 2. Type in the following information:
     - Username: `empireadmin`
     - Password: `password123`
 
+<p align="center">
     <img width="218" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/d4b2ae66-ddbd-4f02-8c55-59abca9cb01e">
+</p>
 
 3. If login is successful, you will have access to Starrkiller.
 
+<p align="center">
     <img width="842" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/919e5d49-db36-42b0-9990-7a10bea8262c">
-
-
+</p>
