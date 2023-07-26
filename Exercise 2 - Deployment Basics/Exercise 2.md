@@ -1,8 +1,10 @@
-# Exercise 2: Agent Deployment
+# Exercise 2: Agent Deployment Basics
+This exercise guides you through the basics of agent deployment, including the creation of a listener on Starkiller, generating a stager for command execution, and finally deploying the agent on a workstation. These steps provide practical experience in effectively deploying and managing agents within a network and will be using the Kali Linux machine in Immersive Labs.
 
-For this exercise, follow along on the Kali box in Immersive Labs.
 
 ## Deploy a Listener
+In this section, we'll be setting up a listener. A listener operates as a server-side entity that awaits incoming connections from agents on specific network ports. It's responsible for managing the communication with deployed agents, thereby ensuring successful data transfer and command execution. Let's dive into creating our first listener!
+
 1. Log in to Starkiller at `http://localhost:1337/index.html` 
 2. Click on Listeners. (It's the headphones icon)
 3. Then click the orange create button in the top right 
@@ -14,6 +16,8 @@ For this exercise, follow along on the Kali box in Immersive Labs.
 6. click `submit`
 
 ## Generate a Stager
+Next, we will explore the concept of stagers. A stager is a small piece of code or software that is used to stage the delivery of a payload to a target system. Its primary role is to establish an initial foothold on the target, which can then be used to further download and execute the full payload.
+
 1. Click on Stagers (It's the suitcase icon)  
 2. Then click Create and select a `multi_launcher` from the dropdown
 3. Select the listener you created from the dropdown 
@@ -23,6 +27,8 @@ For this exercise, follow along on the Kali box in Immersive Labs.
    ![238539359-86ffd1f4-1eb0-470b-bc5e-3f25f5bd0b34](https://github.com/BC-SECURITY/Empire/assets/20302208/5fc291d5-76c6-451b-8a71-e877efa99313)
 
 ## Deploy the Agent
+An agent is the operating code that is used as the implant on a target system. It maintains communication with Empire through the listener, allowing the attacker to control, monitor, and execute commands on the compromised system.
+
 1. Login to Workstation 1 (10.10.0.45)
 2. Turn off Real-Time Protections (if enabled)
 
