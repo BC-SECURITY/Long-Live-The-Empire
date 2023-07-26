@@ -1,5 +1,5 @@
 # Agent Chaining
-
+In this exercise, we will explore the process of agent chaining using Empire. The key steps we will cover include elevating privileges, creating a port forward pivot, and generating a C# payload. This hands-on walkthrough will enhance your understanding of how to effectively use Empire for post-exploitation activities.
 
 ## Elevating Privileges
 For our Port Forward Pivot to work succesffully, we will need to elevate our agent first. For this part, we will use a simple UAC bypass to achieve this.
@@ -35,6 +35,7 @@ For our Port Forward Pivot to work succesffully, we will need to elevate our age
 7. Take note of the agent's name as we will need it for the next section.
 
 ## Create a Port Forward Pivot
+In this section, we will guide you through the process of establishing a network pivot using an Empire listener. This step will allow us to redirect network traffic from one agent to another, effectively extending our reach into the target network.
 
 1. Return to the Listeners tab in Starkiller.
 
@@ -79,6 +80,8 @@ For our Port Forward Pivot to work succesffully, we will need to elevate our age
 </p>
 
 ## Creating a C# Payload
+Now we will cover the process of generating and compiling a C# stager. Empire uses a modified version of the Roslyn compiler from Covenant and has integrated into the project. This tool allows us to transform our C# code into an executable file, specifically designed to invoke PowerShell. The ensuing steps will walk you through the process of specifying the necessary parameters, creating your payload, and ultimately deploying it.
+
 1. Now that the listner is crated, we will navigate back to the Stagers tab.
 
 <p align="center">
