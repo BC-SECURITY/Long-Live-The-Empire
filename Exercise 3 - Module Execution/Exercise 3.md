@@ -148,7 +148,7 @@ This script will load the BOF file (aka COFF file) into memory, map all sections
 13. Click on the most recent task and view the output from the BOF execution.
 
 <p align="center">
-    <img width="670" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/1bc98184-1357-4d11-8179-1790d2c69c4">
+    <img width="670" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/1bc98184-1357-4d11-8179-1790d2c69c46">
 </p>
 
 14. You can also select other actions by clicking the three dots to the right of a task, where you can download the code that was executed on the agent and the output.
