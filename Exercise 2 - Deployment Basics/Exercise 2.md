@@ -1,5 +1,5 @@
 # Exercise 2: Agent Deployment Basics
-This exercise guides you through the basics of agent deployment, including the creation of a listener on Starkiller, generating a stager for command execution, and finally deploying the agent on a workstation. These steps provide practical experience in effectively deploying and managing agents within a network and will be using the Kali Linux machine in Immersive Labs.
+This exercise guides you through the basics of agent deployment, including the creation of a listener on Starkiller, generating a stager for command execution, and finally, deploying the agent on a workstation. These steps provide practical experience in effectively deploying and managing agents within a network, and will be using the Kali Linux machine in Immersive Labs.
 
 
 ## Deploy a Listener
