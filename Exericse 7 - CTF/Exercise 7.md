@@ -33,7 +33,7 @@
 
 <details>
 <summary>Answer</summary>
-    The flag is a hidden Empire image on Workstation 1 that has the flag embedded in it with stegonagraphy. There is no password needed for this flag.
+    The flag is a hidden Empire image on Workstation 1 that has the flag embedded in it with steganography. There is no password needed for this flag.
 </details>
 
 ## Flag 4
