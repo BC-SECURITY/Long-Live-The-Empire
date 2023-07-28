@@ -44,7 +44,7 @@
 
 <details>
 <summary>Answer</summary>
-    The flag is on the Desktop of Workstation 2 and is in the PowerPoint document.
+    The flag is on the Desktop of Workstation 2 and is in the PowerPoint document under the notes.
 </details>
 
 
@@ -56,5 +56,16 @@
 
 <details>
 <summary>Answer</summary>
-    The flag is in the Recycling Bin on Workstation 2.
+    The flag is in the Recycling Bin on Workstation 3 for Nate Levy.
+</details>
+
+## Flag 6
+<details>
+<summary>Hint</summary>
+    Sometimes a service is only reachable from a local machine.
+</details>
+
+<details>
+<summary>Answer</summary>
+    The flag is hosted on Workstation 3 and is only reachable from 127.0.0.1.
 </details>
