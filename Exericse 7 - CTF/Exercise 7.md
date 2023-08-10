@@ -21,7 +21,7 @@
 
 <details>
 <summary>Answer</summary>
-    The flag is in the source code for the webserver hosted on Workstation 2 http://10.10.0.194.
+    The flag is in the source code for the webserver hosted on Workstation 2 (http://10.10.0.194).
 </details>
 
 
