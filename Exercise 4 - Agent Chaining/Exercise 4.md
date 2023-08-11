@@ -117,4 +117,16 @@ Now we will cover the process of generating and compiling a C# stager. Empire us
 
 <p align="center">
   <img src="https://github.com/BC-SECURITY/Empire/assets/20302208/cac8f14e-7269-458b-ab5f-be3604c73849">
-</
+</p>
+
+7. Once the agent has been generated we will need to download it to our box by clicking on the green download button on the top right.
+8. We will now upload the payload to Workstation 1 by going back to our elevated agent and clicking on the file browser tab.
+9. Then navigate to the Ellena Pierce's Desktop
+
+<p align="center">
+  <img width="235" alt="image" src="https://github.com/BC-SECURITY/Long-Live-The-Empire/assets/42596432/511363a1-9030-41b1-b036-8624e1b14072">  
+</p>
+
+10. Right Click on the desktop, select upload and then type `Sharpire` to find it in the drop down.
+11. Return to Workstation 1 and double click on the Sharpire.exe
+12. You should recieve a new agent call back in Empire 
