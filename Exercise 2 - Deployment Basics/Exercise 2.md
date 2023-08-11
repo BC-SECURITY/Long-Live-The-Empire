@@ -5,7 +5,7 @@ This exercise guides you through the basics of agent deployment, including the c
 ## Deploy a Listener
 In this section, we'll be setting up a listener. A listener operates as a server-side entity that awaits incoming connections from agents on specific network ports. It's responsible for managing the communication with deployed agents, thereby ensuring successful data transfer and command execution. Let's dive into creating our first listener!
 
-1. Log in to Starkiller at `http://localhost:1337/index.html` 
+1. Log in to Starkiller at `http://localhost:1337/index.html`. Username is `empireadmin` and password is `password123`
 2. Click on Listeners. (It's the headphones icon)
 3. Then click the orange create button in the top right 
 4. Select `http` from the dropdown
@@ -47,7 +47,7 @@ An agent is the operating code that is used as the implant on a target system. I
    <img width="770" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/93e24fcf-bdaa-4e5d-a902-b6e93f3ebeae">
 </p>
 
-5. Paste the payload into PowerShell.exe on Workstation 1 and run it 
+5. Paste the payload into PowerShell.exe on Workstation 1 and run it (if you are having issues cutting and pasting you can press `ctl+alt+shift` to open the guacamole to add the payload. Press it a second time to close the guacamole window. 
 
 <p align="center">
    <img width="913" alt="252177318-d2c41ae5-bb57-4037-86e7-d423efb1191a" src="https://github.com/BC-SECURITY/Empire/assets/20302208/affa456f-a408-4e93-96f2-061d72cfe33b">
