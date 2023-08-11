@@ -114,7 +114,7 @@ A separate application is no longer required for running Starkiller since Empire
     <img width="218" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/d4b2ae66-ddbd-4f02-8c55-59abca9cb01e">
 </p>
 
-3. If login is successful, you will have access to Starrkiller.
+3. If login is successful, you will have access to Starkiller.
 
 <p align="center">
     <img width="842" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/919e5d49-db36-42b0-9990-7a10bea8262c">
