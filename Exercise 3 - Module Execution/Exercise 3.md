@@ -1,8 +1,8 @@
 # Exercise 3: Module Execution
-For this exercise, we will use the Kali box and Workstation 1. We will be diving into practical aspects of module execution on Agents. We'll start by operating an interactive shell, proceeding to list and inject into processes, then moving on to executing Binary Object Files (BOF). 
+For this exercise, we will use the Kali box and Workstation 1. We will be diving into the practical aspects of module execution on Agents. We'll start by operating an interactive shell, proceeding to list and inject into processes, then moving on to executing Binary Object Files (BOF). 
 
-# Interact with Agent
-In this section, you will learn how to effectively interact with an agent within Starkiller. This involves various steps, from operating an interactive shell to executing Binary Object Files (BOF). It will give you hands-on experience and demonstrate the depth of functionalities an agent offers.
+# Interact with an Agent
+First we are going to review the basic interaction functions for an Agent
 
 1. On the Agents tab of Starkiller, click on the name of the agent to interact with it.
 
@@ -10,7 +10,7 @@ In this section, you will learn how to effectively interact with an agent within
     <img width="781" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/d27644f3-1ce4-4533-bf33-99bbddc4e84c">
 </p>
 
-2. Once you have clicked on the agent, you will be given numerous options for interaction.
+2. Once you have clicked on the agent, you will be given numerous options for interaction. The shell command window allows you to execute commands as if excuting from the command line of the victim. The modules allow for execution of predefined code scripts and assemblies. 
 
 <p align="center">
     <img width="781" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/5cd9d2b7-08c7-4887-b786-8a3202483ea7">
@@ -44,7 +44,7 @@ Next, we will introduce you to the Interactive Shell, a powerful feature that al
 </p>
 
 ## List Processes and Injection
-Now let's shift our focus to Process Browser and Injection. The Process Browser is a feature in Starkiller that lists the processes that are running on a host, similar to the `ps` command. This information is logged, tracked, and shared across all agents on the same workstation. So, pressing the refresh button will refresh the process list for all agents sharing the same machine. In addition, the Process Browser includes a search feature to enable quicker operations and tracks which processes already have agents loaded into them.
+Now let's shift our focus to the Process Browser and Injection. The Process Browser is a feature in Starkiller that lists the processes that are running on a host, similar to the `ps` command. This information is logged, tracked, and shared across all agents on the same workstation. So, pressing the refresh button will refresh the process list for all agents sharing the same machine. In addition, the Process Browser includes a search feature to enable quicker operations and tracks which processes already have agents loaded into them.
 
 1. At the top of the agent interaction page, there is a tab named Processes.
 
@@ -54,7 +54,7 @@ Now let's shift our focus to Process Browser and Injection. The Process Browser 
 
 2. Open Notepad on Workstation 1
 
-3. The process list is shared across all agents that are on the same workstation. So, pressing the refresh button will refresh the process list for all agents sharing the same machine.
+3. Press the refresh button ot update the proccesss list
 
 <p align="center">
     <img width="781" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/09ef5658-846c-49f8-a35f-31f0571452092">
@@ -99,7 +99,7 @@ This script will load the BOF file (aka COFF file) into memory, map all sections
     <img width="484" alt="image" src="https://github.com/BC-SECURITY/Empire/assets/20302208/75433632-8c10-46bb-94c9-47c0fc43f0ab">
 </p>
 
-4. The only option that will need to be updated for this example is that we need to provide a BOF file for the module to execute. 
+4. The only option that will need to be updated for this example is the BOF file for the module to execute. 
 
 5. Click on the upload arrow next to `File`.
 
